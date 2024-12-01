@@ -1,0 +1,46 @@
+/* styles/homepage.css */
+.homepage {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    text-align: center;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .category-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .category-card h3 {
+    margin: 10px 0;
+  }
+  
+  .category-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  

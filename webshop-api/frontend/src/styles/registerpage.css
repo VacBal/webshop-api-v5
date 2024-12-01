@@ -1,0 +1,34 @@
+.register-page {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .register-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-page input {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .register-page .address-group {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .register-page button {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .register-page button:hover {
+    background-color: #218838;
+  }
+  

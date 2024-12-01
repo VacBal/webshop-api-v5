@@ -1,0 +1,53 @@
+.order-details-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close-button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+  }
+  
+  .close-button:hover {
+    background: #cc0000;
+  }
+  
+  .order-info, .order-items {
+    margin: 20px 0;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .order-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
